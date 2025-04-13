@@ -27,15 +27,17 @@ class PortfolioNavigation extends StatelessWidget {
         borderRadius: BorderRadius.circular(30),
         border: Border.all(color: orbColor.withOpacity(0.5), width: 2),
       ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          _buildNavButton('HOME', PortfolioSection.intro),
-          _buildNavButton('ABOUT', PortfolioSection.about),
-          _buildNavButton('SKILLS', PortfolioSection.skills),
-          // _buildNavButton('PROJECTS', PortfolioSection.projects),
-          _buildNavButton('CONTACT', PortfolioSection.contact),
-        ],
+      child: FittedBox(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            _buildNavButton('HOME', PortfolioSection.intro),
+            _buildNavButton('ABOUT', PortfolioSection.about),
+            _buildNavButton('SKILLS', PortfolioSection.skills),
+            // _buildNavButton('PROJECTS', PortfolioSection.projects),
+            _buildNavButton('CONTACT', PortfolioSection.contact),
+          ],
+        ),
       ),
     );
   }
