@@ -183,18 +183,18 @@ class _PortfolioScreenState extends State<PortfolioScreen> with SingleTickerProv
                 ),
 
                 /// Orb effect
-                Positioned.fill(
-                  child: OrbShaderWidget(
-                    key: _orbKey,
-                    mousePos: _mousePos,
-                    minEnergy: _minOrbEnergy,
-                    config: OrbShaderConfig(ambientLightColor: orbColor, materialColor: orbColor, lightColor: orbColor),
-                    onUpdate:
-                        (energy) => setState(() {
-                          _orbEnergy = energy;
-                        }),
-                  ),
-                ),
+                // Positioned.fill(
+                //   child: OrbShaderWidget(
+                //     key: _orbKey,
+                //     mousePos: _mousePos,
+                //     minEnergy: _minOrbEnergy,
+                //     config: OrbShaderConfig(ambientLightColor: orbColor, materialColor: orbColor, lightColor: orbColor),
+                //     onUpdate:
+                //         (energy) => setState(() {
+                //           _orbEnergy = energy;
+                //         }),
+                //   ),
+                // ),
 
                 /// Mid-ground with light effects
                 _LitImage(
