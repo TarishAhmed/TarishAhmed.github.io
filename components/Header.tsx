@@ -3,8 +3,8 @@ export default function Header() {
   return (
     <header className="nav" id="top">
       <div className="wrap nav-in">
-        <a href="#top" className="brand" aria-label="Tarish Ahmed, home">
-          <span className="dot" aria-hidden="true">TA</span>Tarish Ahmed
+        <a href="#top" className="brand" aria-label="Tarish, home">
+          <span className="dot" aria-hidden="true">TAB</span>Tarish
         </a>
         <nav aria-label="Primary">
           <ul>

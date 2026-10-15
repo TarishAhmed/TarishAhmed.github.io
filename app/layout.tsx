@@ -31,7 +31,7 @@ export const viewport: Viewport = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Tarish Ahmed",
+  name: "Tarish",
   jobTitle: "Software Development Engineer II",
   url: SITE_URL,
   email: `mailto:${EMAIL}`,

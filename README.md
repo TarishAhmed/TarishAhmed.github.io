@@ -1,6 +1,6 @@
 # tarishahmed.github.io
 
-Personal portfolio of Tarish Ahmed — https://tarishahmed.github.io/
+Personal portfolio of Tarish — https://tarishahmed.github.io/
 
 **Stack:** Next.js (App Router, static export) · TypeScript · Tailwind CSS · Framer Motion.
 Deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`

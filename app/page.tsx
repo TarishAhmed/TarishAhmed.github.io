@@ -22,7 +22,7 @@ export default function Home() {
         <Contact />
       </main>
       <footer className="wrap foot">
-        <p>© {new Date().getFullYear()} Tarish Ahmed</p>
+        <p>© {new Date().getFullYear()} Tarish</p>
         <a href="#top">Back to top ↑</a>
       </footer>
     </>
