@@ -1,6 +1,6 @@
 import Reveal from "./Reveal";
 const stats = [
-  ["₹2,000+ Cr", "annual transaction volume"],
+  ["₹400 Cr+", "monthly transaction volume"],
   ["100+", "corporate clients"],
   ["10M+", "app downloads"],
   ["~25%", "faster CI builds"],

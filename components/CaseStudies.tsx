@@ -23,7 +23,7 @@ export default function CaseStudies() {
           <h3>Corporate cards &amp; payables platform</h3>
           <dl>
             <dt>Problem</dt>
-            <dd>One Flutter client had to serve Android, iOS and Web for 100+ corporates moving ₹2,000+ Cr a year — under PCI DSS, SOC 2 and ISO 27001 expectations.</dd>
+            <dd>One Flutter client had to serve Android, iOS and Web for 100+ corporates moving ₹400 Cr+ a month — under PCI DSS, SOC 2 and ISO 27001 expectations.</dd>
             <dt>Approach</dt>
             <dd>Melos monorepo with 6 feature packages; 4-stage Bitbucket CI/CD to AWS S3/CloudFront and Firebase Hosting; Sentry APM with source maps; build-time AES key injection via AWS Secrets Manager plus Subresource Integrity.</dd>
             <dt>Impact</dt>
