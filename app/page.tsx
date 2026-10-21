@@ -10,6 +10,7 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
+      <div id="top" aria-hidden="true" />
       <a className="skip" href="#main">Skip to content</a>
       <Header />
       <main id="main">

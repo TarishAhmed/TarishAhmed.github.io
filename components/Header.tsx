@@ -1,7 +1,7 @@
 import ThemeToggle from "./ThemeToggle";
 export default function Header() {
   return (
-    <header className="nav" id="top">
+    <header className="nav">
       <div className="wrap nav-in">
         <a href="#top" className="brand" aria-label="Tarish, home">
           <span className="dot" aria-hidden="true">TAB</span>Tarish
