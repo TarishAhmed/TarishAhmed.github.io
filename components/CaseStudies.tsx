@@ -23,13 +23,13 @@ export default function CaseStudies() {
           <h3>Corporate cards &amp; payables platform</h3>
           <dl>
             <dt>Problem</dt>
-            <dd>One Flutter client had to serve Android, iOS and Web for 100+ corporates moving ₹400 Cr+ a month — under PCI DSS, SOC 2 and ISO 27001 expectations.</dd>
+            <dd>One Flutter client had to serve Android, iOS and Web for 100+ corporates — $2B+ in transaction volume through 7x+ YoY net revenue growth — under PCI DSS 4.0 expectations.</dd>
             <dt>Approach</dt>
-            <dd>Melos monorepo with 6 feature packages; 4-stage Bitbucket CI/CD to AWS S3/CloudFront and Firebase Hosting; Sentry APM with source maps; build-time AES key injection via AWS Secrets Manager plus Subresource Integrity.</dd>
+            <dd>Melos monorepo of 7 feature packages on Riverpod 3, Flutter Hooks and Freezed; a Flutter Web Wasm pipeline with 16 deferred-loaded GoRouter modules, content-hashed S3 chunk pruning and max-quality Brotli for a ~10.4 MB main.dart.wasm; 3 AI/OCR document-extraction flows built on Gemini structured JSON schemas; remote-rotatable SSL pinning (Dio + Firebase Remote Config), biometric lock, CSP and SRI; Sentry APM with source maps.</dd>
             <dt>Impact</dt>
-            <dd>~25% faster CI builds, less duplication, and a steady stream of shipped features: GST reconciliation, invoice discounting, BBPS payments, vendor verification and multi-level approvals.</dd>
+            <dd>~25% faster CI builds and less duplication; 66 module paths migrated off GetX to 0 legacy files with 300+ unit/widget tests; 20+ structured fields extracted from utility bills powering fraud flags and spend analytics; a crash-free production experience across GST reconciliation, invoice discounting, BBPS payments, vendor verification and maker-checker approvals.</dd>
           </dl>
-          <Chips items={["Flutter Web", "Melos", "AWS", "Sentry", "Bitbucket CI/CD"]} />
+          <Chips items={["Flutter Web (Wasm)", "Melos", "Riverpod", "Gemini", "PCI DSS 4.0", "Sentry"]} />
         </div>
       </Reveal>
       <Reveal as="article" className="case alt">
@@ -44,7 +44,7 @@ export default function CaseStudies() {
             <dt>Problem</dt>
             <dd>Three consumer apps — FluentLife, UPSC Pathshala and IELTS Ninja — needed rich, live learning features at scale.</dd>
             <dt>Approach</dt>
-            <dd>Led Flutter delivery with Bloc: AI chatbots, cloud calling, group activities and masterclasses, on a serverless Firebase + Cloud Functions backend, with BigQuery / Cloud Logging for retention analysis.</dd>
+            <dd>Led Flutter delivery with Bloc: AI chatbots, cloud calling, group activities and masterclasses, on a serverless Firebase + Cloud Functions backend, with BigQuery / Cloud Logging funnel analytics.</dd>
             <dt>Impact</dt>
             <dd>10M+ downloads and 10K+ daily active users across the portfolio.</dd>
           </dl>

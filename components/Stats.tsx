@@ -1,9 +1,9 @@
 import Reveal from "./Reveal";
 const stats = [
-  ["₹400 Cr+", "monthly transaction volume"],
+  ["$2B+", "transaction volume"],
+  ["7x+", "YoY net revenue growth"],
   ["100+", "corporate clients"],
   ["10M+", "app downloads"],
-  ["~25%", "faster CI builds"],
 ];
 export default function Stats() {
   return (

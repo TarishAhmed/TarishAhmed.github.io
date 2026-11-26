@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     title: TITLE,
-    description: "Flutter lead for a fintech payables platform used by 100+ corporates. ₹400 Cr+ monthly volume, 10M+ app downloads.",
+    description: "Flutter lead for a fintech payables platform used by 100+ corporates. $2B+ transaction volume, 7x+ YoY net revenue growth, Flutter Web Wasm, 10M+ app downloads.",
   },
   twitter: { card: "summary", title: TITLE },
 };

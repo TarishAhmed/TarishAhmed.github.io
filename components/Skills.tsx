@@ -1,8 +1,11 @@
 import Reveal from "./Reveal";
 const groups: [string, string[]][] = [
-  ["Languages & frameworks", ["Flutter", "Dart", "React", "Android", "Rust", "SASS/CSS"]],
-  ["State & architecture", ["Riverpod", "Bloc", "GetX", "Melos", "REST"]],
-  ["Cloud & delivery", ["GCP", "Firebase", "AWS S3", "CloudFront", "Secrets Manager", "Lambda", "Bitbucket CI/CD", "Sentry"]],
+  ["Mobile & web", ["Flutter", "Dart", "Flutter Web (Wasm)", "Android", "iOS", "Swift", "React", "SASS/CSS"]],
+  ["Architecture & quality", ["Riverpod", "Flutter Hooks", "Freezed", "Bloc", "GoRouter", "Melos", "REST", "flutter_test", "SonarQube"]],
+  ["Security", ["PCI DSS 4.0", "CSP", "SRI", "SSL pinning", "Biometrics", "AES", "VAPT"]],
+  ["Cloud & delivery", ["Bitbucket CI/CD", "AWS S3", "CloudFront", "Firebase", "GCP", "Sentry APM"]],
+  ["AI & data", ["Vertex AI", "Gemini API", "OCR extraction", "BigQuery"]],
+  ["Domain", ["Fintech", "Corporate cards", "Payables", "BBPS", "GST", "KYC", "Edtech", "E-commerce"]],
 ];
 export default function Skills() {
   return (
